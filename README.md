@@ -3,6 +3,8 @@
 
 Scrapes the public dispatch log search tool at [coeapps.eugene-or.gov](https://coeapps.eugene-or.gov/epddispatchlog/Home/Search) and loads the results into a local SQLite database. Police dispatch logs are public record in most jurisdictions, including Eugene, OR; this tool is for personal analysis of that public-facing data.
 
+<img width="1113" height="505" alt="image" src="https://github.com/user-attachments/assets/b6d3abdf-cb27-4905-a4c2-56a7109a450f" />
+
 ## What it does
 
 1. Splits a date range into small windows (1 day by default) and queries the dispatch log search form for each window.
